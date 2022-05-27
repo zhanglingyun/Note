@@ -697,6 +697,8 @@ d-i partman-lvm/confirm boolean true
 d-i partman-lvm/confirm_nooverwrite boolean true
 d-i partman/confirm boolean true
 d-i partman/confirm_nooverwrite boolean true
+d-i partman-partitioning/choose_label select msdos
+d-i partman-partitioning/default_label string msdos
 
 d-i debian-installer/allow_unauthenticated boolean true
 
